@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conexión remota y SSH
-parent: SSH
+parent: Servicio SSH
 nav_order: 2
 ---
 
