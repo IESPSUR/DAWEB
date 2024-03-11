@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Despliegue
+title: DAWEB
 nav_order: 1
 ---
 
@@ -22,10 +22,10 @@ Documentación sobre SSH
 Discusión sobre diferentes estrategias de despliegue y sus ventajas.
 
 
-### Sección 3: Administracion de servidores web
+## Sección 3: Administracion de servidores web
 
 
-### Subsección 4: Administracion de servidores de aplicaciones web
+## Subsección 4: Administracion de servidores de aplicaciones web
 
 
 ## Sección 5: Servicio de nombres de dominio
