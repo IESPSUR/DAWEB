@@ -6,7 +6,6 @@ nav_order: 4
 ---
 
 # Servidor Apache
-
 # Instalación de Apache 2 en Ubuntu
 
 ## Introducción
@@ -56,7 +55,7 @@ Configuración en el servidor Apache instalado en Ubuntu:
    - Utiliza OpenSSL para generar un certificado autofirmado para el dominio `claseDAW.net`.
 
 6. **Crear y habilitar un servidor virtual HTTPS para el dominio claseDAW.net**:
-   - Crea un servidor virtual HTTPS con el directorio raíz en `/var/www/seguro/` y configura el log de errores en `/var/log/apache2/seguro.error.log` y el log de accesos en `/var/log/apache2/seguro.access.log` con formato `combined`.
+   - Crea un servidor virtual HTTPS con el directorio raíz en `/var/www/claseDAW/` y configura el log de errores en `/var/log/apache2/claseDAW.error.log` y el log de accesos en `/var/log/apache2/claseDAW.access.log` con formato `combined`.
 
 Para realizar estos pasos, asegúrate de tener privilegios de administración en la sesión de Ubuntu XX.
 Apache es un servidor modular, lo que significa que su funcionalidad puede extenderse mediante módulos adicionales. Cada módulo agrupa funcionalidades y directivas que permiten su configuración. Puedes consultar los módulos disponibles en [http://httpd.apache.org/docs/2.2/mod/](http://httpd.apache.org/docs/2.2/mod/) y [http://modules.apache.org/](http://modules.apache.org/).
@@ -81,14 +80,14 @@ Después de habilitar SSL, es importante observar la configuración del archivo 
 
 ## Servidor Virtual para un Dominio Específico
 
-Para configurar un servidor virtual para un dominio específico, como `seguro.asirXX.net`, se deben seguir varios pasos:
+Para configurar un servidor virtual para un dominio específico, como `claseDAW.net`, se deben seguir varios pasos:
 
 1. Configurar un servidor DNS para que resuelva el nombre de dominio a la dirección IP del servidor.
-2. Crear un directorio raíz para el sitio web (`/var/www/seguro`).
+2. Crear un directorio raíz para el sitio web (`/var/www/claseDAW`).
 3. Crear un certificado digital autofirmado utilizando OpenSSL.
-4. Configurar el archivo de sitio disponible para el servidor seguro.
+4. Configurar el archivo de sitio disponible para el servidor claseDAW.
 5. Deshabilitar el servidor SSL por defecto.
-6. Habilitar el servidor virtual seguro.
+6. Habilitar el servidor virtual claseDAW.
 7. Reiniciar el servidor para aplicar los cambios.
 
 Estos pasos permiten configurar y gestionar servidores web con Apache en Ubuntu de manera efectiva.
