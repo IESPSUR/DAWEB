@@ -5,6 +5,6 @@ layout: default
 has_children: true
 ---
 
-# Sección 3: Servidor Apache
+# Sección 3: Administracion de servidores web
 
 Aquí encontrarás documentación y recursos sobre el Servidor Apache.
