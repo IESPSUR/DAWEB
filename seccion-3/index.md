@@ -1,9 +1,8 @@
 ---
-title: Sección 3: Servidor Apache
-layout: default
 nav_order: 4
+title: Servidor Apache
+layout: default
 has_children: true
-permalink: /seccion-3-servidor-apache
 ---
 
 # Sección 3: Servidor Apache
