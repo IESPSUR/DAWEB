@@ -1,6 +1,6 @@
 ---
 title: Servidor Apache 2
-parent: Servidor Apache
+parent: 4-Administracion de servidores web
 layout: default
 nav_order: 4
 ---

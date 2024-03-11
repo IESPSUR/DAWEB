@@ -5,6 +5,6 @@ layout: default
 has_children: true
 ---
 
-# Servicio de nombres de dominio
+# 6-Servicios de nombres de dominio
 
 Los servicios de nombres de dominio (DNS) son esenciales para el funcionamiento de internet. Aquí encontrarás información sobre cómo configurar y gestionar un servidor DNS.

@@ -5,7 +5,29 @@ layout: default
 has_children: true
 ---
 
-# Sección 3: Administracion de servidores web
+# 4- Administracion de servidores web
+
+## Administración de Servidores Web
+
+La administración de servidores web implica:
+
+- **Instalación y configuración**: Seleccionar y configurar el software del servidor web adecuado (Apache, Nginx, etc.) para optimizar el rendimiento y la seguridad.
+
+- **Seguridad**: Implementar medidas de seguridad como cortafuegos, actualizaciones de seguridad y certificados SSL/TLS.
+
+- **Gestión de recursos**: Monitorizar y gestionar recursos como CPU, memoria y espacio en disco para un rendimiento óptimo.
+
+- **Gestión de usuarios y permisos**: Administrar cuentas de usuario y permisos de acceso para garantizar la seguridad.
+
+- **Copias de seguridad**: Configurar copias de seguridad regulares para proteger los datos y facilitar la recuperación en caso de fallo.
+
+- **Optimización del rendimiento**: Realizar ajustes en la configuración del servidor y código de aplicaciones para mejorar el rendimiento.
+
+- **Escalabilidad**: Planificar estrategias para escalar la capacidad del servidor según sea necesario.
+
+- **Monitorización y análisis**: Utilizar herramientas de monitorización para supervisar el rendimiento y realizar análisis de tendencias.
+
+La administración de servidores web es esencial para garantizar la accesibilidad, seguridad y eficiencia de los sitios y aplicaciones web.
 
 Aquí encontrarás documentación y recursos sobre el Servidor Apache.
 
