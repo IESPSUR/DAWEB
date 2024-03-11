@@ -30,6 +30,10 @@ Apache HTTP Server, comúnmente conocido como Apache, es un servidor web de cód
 
     Durante la instalación, se te pedirá confirmación para proceder. Presiona `Y` y luego `Enter` para continuar con la instalación.
 
+        ```
+    sudo service apache2 status
+    ```
+
 4. **Verificar la instalación**: Una vez completada la instalación, Apache 2 debería estar en funcionamiento. Puedes verificarlo ingresando la dirección IP de tu servidor en un navegador web. Si estás en el mismo equipo donde instalaste Apache, puedes usar `http://localhost` o `http://127.0.0.1`.
 
     Si Apache 2 se ha instalado correctamente, verás una página de bienvenida de Apache que indica que la instalación ha sido exitosa.
