@@ -4,7 +4,7 @@ parent: 4-Administracion de servidores web
 layout: default
 nav_order: 3
 ---
-## Configuración SSL
+# Configuración SSL
 
 Para habilitar SSL en Apache, es necesario modificar el archivo de configuración `/etc/apache2/ports.conf`. Además, se puede verificar si el servidor está escuchando en los puertos 80/TCP y 443/TCP utilizando el comando `netstat -ltn | grep apache`. Se debe habilitar el servidor virtual SSL por defecto (`default-ssl`) ejecutando `sudo a2ensite default-ssl`.
 

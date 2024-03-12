@@ -12,7 +12,7 @@ En resumen, Magento es un CMS especializado en comercio electrónico que ofrece 
 
 Vamos a proceder a explicar como instalar magento en un contenedor docjker.
 
-# Pasos para configurar una plataforma LAMP con Docker
+## Pasos para configurar una plataforma LAMP con Docker
 
 Paso 1: Construir la plataforma LAMP
 

@@ -5,7 +5,7 @@ layout: default
 nav_order: 2
 ---
 
-## Configuración de Servidor HTTPS en Apache 2.2 sobre Linux
+# Configuración de Servidor HTTPS en Apache 2.2 sobre Linux
 
 Configuración en el servidor Apache instalado en Ubuntu:
 

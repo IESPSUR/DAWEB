@@ -1,6 +1,6 @@
 ---
 nav_order: 4
-title: Acceso a la Interfaz Web de Tomcar
+title: Acceso a la Interfaz Web de Tomcat
 layout: default
 parent: 5-Administracion de servidores de aplicaciones web
 ---
