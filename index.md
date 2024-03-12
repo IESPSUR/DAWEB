@@ -13,8 +13,8 @@ El contenido de esta sección es el que se proporciona durante el curso de 2º a
 ## Aspectos generales en la arquitectura web
 
 - **Escalabilidad**: 
-  - Vertical (hw: ampliando capacidades, sw: instalando nuevos servidores en la propia máquina).
-  - Horizontal (hw: instalando nuevas máquinas, sw: instalando el servidor en formato clúster para la alta disponibilidad).
+  - Vertical (ampliando capacidades, instalando nuevos servidores en la propia máquina).
+  - Horizontal (instalando nuevas máquinas, instalando el servidor en formato clúster para la alta disponibilidad).
 - **Separación de responsabilidades**
 - **Portabilidad**
 - **Utilización de componentes en los servicios de infraestructura**
