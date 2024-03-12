@@ -60,6 +60,7 @@ Además, BIND 9 ofrece características de seguridad mejoradas, como la autentic
 - García Gámez, Sergio
 - Gómez Rivera, Alejandro
 - Guerra Salas, Iván
+- Guerrero Boza, Manuel Alejandro
 - Pinzon Ochoa, Gabriela Janneth
 - Rodríguez Garrido, Álvaro
 - Sánchez Ruano, Irene
