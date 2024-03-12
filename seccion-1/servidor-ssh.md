@@ -1,5 +1,5 @@
 ---
-title: Sección 1: Servidor SSH
+title: Servidor SSH
 layout: default
 nav_order: 4
 parent: 1-Servicio-SSH
