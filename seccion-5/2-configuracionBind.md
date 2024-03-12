@@ -1,8 +1,8 @@
 ---
 nav_order: 2
-title: Bind9 servidor caché DNS
+title: 5.2-Bind9 servidor caché DNS
 layout: default
-parent: 6-Servicios de nombres de dominio
+parent: 5-Servicios de nombres de dominio
 
 ---
 

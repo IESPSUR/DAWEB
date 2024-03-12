@@ -1,8 +1,8 @@
 ---
 nav_order: 1
-title: Bind9
+title: 5.1-Bind9
 layout: default
-parent: 6-Servicios de nombres de dominio
+parent: 5-Servicios de nombres de dominio
 
 ---
 

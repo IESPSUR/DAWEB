@@ -1,6 +1,6 @@
 ---
-title: Sistema de gestión de contenidos
-parent: 4-Administracion de servidores web
+title: 3.4-Sistema de gestión de contenidos
+parent: 3-Administracion de servidores web
 layout: default
 nav_order: 4
 ---
