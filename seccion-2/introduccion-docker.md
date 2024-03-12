@@ -9,17 +9,17 @@ nav_order: 3
 # Introducción a Docker para desarrolladores
 
 
-# Docker
+## Docker
 Docker es una tecnología de virtualización por medio de contenedores. Los contenedores contienen la arquitectura necesaria para que una aplicación pueda ejecutarse en él y su uso reduce los requerimientos de otros sistemas de despliegue. Entre sus ventajas están la facilidad de distribución, la velocidad de arranque, la portabilidad y la eficiencia.
 
 Docker está soportado por los mayores sistemas operativos, aunque en esta guía hablaremos de su instalación y uso en Ubuntu.
 
-# Instalación
+### Instalación
 Para instalar docker en ubuntu tenemos dos opciones, en primer lugar de forma gráfica accediendo a la web oficial de docker
 
 [web de docker](https://docs.docker.com/desktop/install/linux-install/) y descargando la aplicación directamente. La segunda forma es a través de la terminal mediante comandos, los cuales se pueden consultar aqui [Instalación de docker por comandos en ubuntu](https://docs.docker.com/engine/install/ubuntu/):
 
-    Este comando se encargará de desinstalar de la máquina cualquier paquete que pueda ser conflictivo con la instalación
+Este comando se encargará de desinstalar de la máquina cualquier paquete que pueda ser conflictivo con la instalación
 
     ```bash
         for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
