@@ -27,9 +27,8 @@ Las ventajas de utilizar este servicio son:
 2. El cliente y el servidor determinan la versión de SSH que usarán, además del algoritmo de cifrado
 3. El servidor envía la clave pública al cliente
 4. El cliente compara la clave recibida con la que almacena (salvo que sea la primera vez que se conectan)
-
-![Esquema de la conexión entre cliente y servidor](./imagenes/parClaves.png)
-
 5. El cliente crea una clave de sesión y un mensaje con esta clave y el algoritmo usado para crearla y lo encripta usando la clave pública que recibe del servidor
 6. A partir de entonces y hasta que se rompa la conexión, se comunicarán con la clave privada
 7. Se autentica el usuario y se inicia la sesión
+
+![Esquema de la conexión entre cliente y servidor](./imagenes/parClaves.png)

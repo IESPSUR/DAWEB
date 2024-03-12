@@ -17,9 +17,13 @@ El servidor SSH facilita el establecimiento de conexiones remotas que permiten l
 
 El funcionamiento del servidor SSH se configura a través de los distintos archivos de configuración, tales como:
 * sshd_config: Describe la configuración del servidor. Permite configurar opciones como el puerto de escucha, la versión del protocolo, dónde se encuentra la clave privada o si ha sido generada por RSA o DSA entre otras
+
 ![Líneas del archivo sshd_config](seccion-1/imagenes/sshd_config.jpg)
+
 * ssh_config: Describe la configuración del cliente SSH
+
 ![Líneas del archivo ssh_config](./imagenes/ssh_config.jpg)
+
 * ssh_hot_rsa_key: Clave RSA privada
 * ssh_hot_rsa_key.pub: Clave RSA pública
 * known__hosts: Claves públicas de otras máquinas

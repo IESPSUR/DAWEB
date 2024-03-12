@@ -1,5 +1,5 @@
 ---
-title: Trabajando con docker
+title: Trabajando con Vagrant
 layout: default
 nav_order: 7
 parent: 2-Herramientas de despliegue de aplicaciones web
@@ -29,7 +29,7 @@ vagrant ssh
 ```
 Entonces el prompt del sistema debe cambiar al de la máquina virtual
 
-![Imagen del vagrantfile](/imagenes/vagrantfile.jpg)
+![Imagen del vagrantfile](./imagenes/vagrantfile.jpg)
 
 # Eliminar máquina virtual
 Para eliminar una máquina virtual de vagrant lo primero que debemos hacer es detenerla, para ello es necesario usar el comando:

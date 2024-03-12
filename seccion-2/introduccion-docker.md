@@ -17,33 +17,33 @@ Docker está soportado por los mayores sistemas operativos, aunque en esta guía
 ### Instalación
 Para instalar docker en ubuntu tenemos dos opciones, en primer lugar de forma gráfica accediendo a la web oficial de docker
 
-[web de docker](https://docs.docker.com/desktop/install/linux-install/) y descargando la aplicación directamente. La segunda forma es a través de la terminal mediante comandos, los cuales se pueden consultar aqui [Instalación de docker por comandos en ubuntu](https://docs.docker.com/engine/install/ubuntu/):
+[web de docker](https://docs.docker.com/desktop/install/linux-install/) y descargando la aplicación directamente. La segunda forma es a través de la terminal mediante comandos, los cuales se pueden consultar aquí [instalación de docker por comandos en ubuntu](https://docs.docker.com/engine/install/ubuntu/):
 
 Este comando se encargará de desinstalar de la máquina cualquier paquete que pueda ser conflictivo con la instalación
 
-    ```bash
-        for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
-    ```
+```bash
+    for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
     Este bloque de comandos se encarga de descargar los certificados y claves necesarios
 
-    ```bash
-    # Add Docker's official GPG key:
-    sudo apt-get update
-    sudo apt-get install ca-certificates curl
-    sudo install -m 0755 -d /etc/apt/keyrings
-    sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-    sudo chmod a+r /etc/apt/keyrings/docker.asc
+```bash
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-    # Add the repository to Apt sources:
-    echo \
-      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-    sudo apt-get update
-    ```
-    El último comando es el necesario para descargar e instalar docker
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+El último comando es el necesario para descargar e instalar docker
 
-    ```bash
-    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-    ```
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 

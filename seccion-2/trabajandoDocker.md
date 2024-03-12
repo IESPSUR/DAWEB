@@ -2,7 +2,6 @@
 title: Trabajando con docker
 layout: default
 nav_order: 5
-has_children: true
 parent: 2-Herramientas de despliegue de aplicaciones web
 ---
 # Creación de contenedores
@@ -38,23 +37,23 @@ docker rm nombreContenedor
 Para trabajar con un contenedor que ya existe debemos:
     1. Inicializarlo
 
-        ```bash
-        docker start contenedor
-        ```
+```bash
+docker start contenedor
+```
 
     2. Arrancarlo
 
-    ```bash
-    docker exec -it contenedor /bin/bash
-    ```
+```bash
+docker exec -it contenedor /bin/bash
+```
 Con esos comando ya estaremos dentro del contenedor.
 Ademas de las opciones anteriores, hay muchas otras para crear y arrancar los contenedores, todas ellas se pueden consultar en la [documentación oficial](https://docs.docker.com/reference/cli/docker/container/exec/)
 
 # Exportar un contenedor
 Para exportar un contenedor es necesario tener cuenta en dockerhub. Esta cuenta nos permitirá tener un repositorio propio en el que almacenar imágenes de nuestros contenedores ya configurados. El primer paso para subir un contenedor es autenticarnos en la terminal con las credenciales de dockerhub, para ello usaremos
- ```bash
- docker login
- ```
+```bash
+docker login
+```
 Tras esto nos pedirá introducir el usuario y contraseña. En caso de hacerlo bien, aparecerá un mensaje de confirmación.
 Una vez autenticados, el siguiente paso es crear la imagen del contenedor que vamos a subir, para esto necesitaremos el id del contenedor que se puede obtener con el comando
 ```bash
