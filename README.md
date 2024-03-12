@@ -53,11 +53,12 @@ Joaquin Manuel Montero Navarro
 
 ## Alumnos desarrolladores del proyecto 2º DAW
 
-Caro Barrera, Alberto
-Fabricio Zhune Mero, Elvis
-Gómez Rivera, Alejandro
-Guerra Salas, Iván
-Pinzon Ochoa, Gabriela Janneth
-Rodríguez Garrido, Álvaro
-Sánchez Ruano, Irene
-Vázquez Franco, Luis
+- Caro Barrera, Alberto
+- Fabricio Zhune Mero, Elvis
+- García Gámez, Sergio
+- Gómez Rivera, Alejandro
+- Guerra Salas, Iván
+- Pinzon Ochoa, Gabriela Janneth
+- Rodríguez Garrido, Álvaro
+- Sánchez Ruano, Irene
+- Vázquez Franco, Luis
