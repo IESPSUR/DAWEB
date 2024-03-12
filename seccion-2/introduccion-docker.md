@@ -24,7 +24,7 @@ Este comando se encargará de desinstalar de la máquina cualquier paquete que p
 ```bash
     for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
-    Este bloque de comandos se encarga de descargar los certificados y claves necesarios
+Este bloque de comandos se encarga de descargar los certificados y claves necesarios
 
 ```bash
 # Add Docker's official GPG key:

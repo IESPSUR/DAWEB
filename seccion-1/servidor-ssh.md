@@ -22,8 +22,8 @@ El funcionamiento del servidor SSH se configura a través de los distintos archi
 
 * ssh_config: Describe la configuración del cliente SSH
 
-![Líneas del archivo ssh_config](./imagenes/ssh_config.jpg)
-![Esquema de la conexión entre cliente y servidor](./imagenes/parClaves.png)
+![Líneas del archivo ssh_config](./imagenes/ssh_config.png)
+
 * ssh_hot_rsa_key: Clave RSA privada
 * ssh_hot_rsa_key.pub: Clave RSA pública
 * known__hosts: Claves públicas de otras máquinas
