@@ -1,9 +1,9 @@
 ---
-title: Sección 1: Clientes SSH
+title: Clientes SSH
 layout: default
 nav_order: 3
-has_children: true
-permalink: /seccion-1-ssh
+parent: 1-Servicio-SSH
+
 ---
 # ¿Qué es el cliente SSH?
     Es una herramienta que permite al usuario solicitar establecer una conexión entre su máquina y una máquina remota de forma segura. Se puede hacer de forma gráfica o por comandos.

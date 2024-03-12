@@ -1,9 +1,8 @@
 ---
-title: Sección 2: Herramientas de despliegue de aplicaciones web
+title: Trabajando con docker
 layout: default
 nav_order: 7
-has_children: true
-permalink: /seccion-2-herramientas
+parent: 2-Herramientas de despliegue de aplicaciones web
 ---
 # Instalación de Vagrant
 El primer paso para trabajar con vagrant es instalarlo, para ello usamos 

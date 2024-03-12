@@ -2,8 +2,8 @@
 title: Sección 1: Servidor SSH
 layout: default
 nav_order: 4
-has_children: true
-permalink: /seccion-1-ssh
+parent: 1-Servicio-SSH
+
 ---
 # ¿Qué es el servidor SSH?
 El servidor SSH facilita el establecimiento de conexiones remotas que permiten la transmisión segura de cualquier tipo de dato. Un ejemplo de servidor SSH es OpenSSH, que es la implementación libre más usada. Sus características son:

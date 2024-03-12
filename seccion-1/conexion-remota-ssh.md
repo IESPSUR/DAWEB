@@ -1,9 +1,10 @@
 ---
 title: Conexión remota y SSH
-parent: Sección 1: SSH
+parent: 1-Servicio-SSH
 layout: default
 nav_order: 2
-permalink: /seccion-1-ssh/conexion-remota-ssh
+parent: 1-Servicio-SSH
+
 ---
 
 # Conexión remota y SSH
