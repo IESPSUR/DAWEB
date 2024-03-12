@@ -20,22 +20,15 @@ BIND9 es un software de servidor de nombres de dominio de código abierto y ampl
 
 ## Instalación de BIND9
 
-### En sistemas basados en Debian/Ubuntu
+### En sistemas basados en Ubuntu
 
-Para instalar BIND9 en sistemas basados en Debian/Ubuntu, puedes ejecutar el siguiente comando en la terminal:
+Para instalar BIND9 en sistemas basados en Ubuntu, puedes ejecutar el siguiente comando en la terminal:
 
 ```
-sudo apt-get update
-sudo apt-get install bind9
+sudo apt update
+sudo apt install bind9
 ```
 
-## Instalación de BIND9 en sistemas CentOS/RHEL
-
-Para instalar BIND9 en sistemas basados en CentOS/RHEL, puedes ejecutar el siguiente comando en la terminal:
-
-```bash
-sudo yum install bind
-```
 
 ## Configuración básica de BIND9
 
