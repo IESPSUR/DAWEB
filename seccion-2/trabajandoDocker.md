@@ -35,13 +35,13 @@ docker rm nombreContenedor
 
 # Puesta en marcha de un contenedor
 Para trabajar con un contenedor que ya existe debemos:
-    1. Inicializarlo
+1. Inicializarlo
 
 ```bash
 docker start contenedor
 ```
 
-    2. Arrancarlo
+2. Arrancarlo
 
 ```bash
 docker exec -it contenedor /bin/bash
