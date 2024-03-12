@@ -8,7 +8,6 @@ nav_order: 1
 
 # Introducción a Docker para desarrolladores
 
-
 ## Docker
 Docker es una tecnología de virtualización por medio de contenedores. Los contenedores contienen la arquitectura necesaria para que una aplicación pueda ejecutarse en él y su uso reduce los requerimientos de otros sistemas de despliegue. Entre sus ventajas están la facilidad de distribución, la velocidad de arranque, la portabilidad y la eficiencia.
 

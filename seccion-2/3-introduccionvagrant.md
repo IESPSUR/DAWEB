@@ -15,3 +15,10 @@ Vagrant es un sistema que nos permite crear, trabajar y exportar máquinas virtu
 * Fácil de desplegar
 
 * Integra herramientas de automatización y configuración de las máquinas virtuales
+
+## PDF sobre Vagrant
+
+* [SSH](pdf/davbfr_vagrant-cheat-sheet.pdf)
+* [SSH](pdf/Presentation-2016-NOUNCE-Vagrant_-_Up_and_Running-v2.4.pdf)
+* [SSH](pdf/Vagrant%20Sheetcheat.pdf)
+* [SSH](pdf/vagrant-es.pdf)
