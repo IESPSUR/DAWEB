@@ -49,7 +49,7 @@ Además, BIND 9 ofrece características de seguridad mejoradas, como la autentic
 
 ## Profesor de la asignatura
 
-Joaquin Manuel Montero Navarro
+- Joaquin Manuel Montero Navarro
 
 ## Alumnos desarrolladores del proyecto 2º DAW
 
