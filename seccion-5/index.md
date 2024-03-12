@@ -36,9 +36,8 @@ En resumen, el Sistema de Nombres de Dominio (DNS) ofrece una variedad de servic
 
 
 Aquí podras encontrar documentación sobre DNS
+
 * [Instalacion de Bind9](pdf/Instalaci%C3%B3n%20del%20servidor%20DNS%20con%20Bind9.pdf)
 * [Servicio DNS](pdf/Servicio%20DNS.pdf)
 * [Servidor DNS](pdf/Servidor%20DNS.pdf)
-
 * [Sistema de nombres de dominio](https://www.evernote.com/shard/s201/client/snv?noteGuid=7c1b2ce5-2c65-4475-adeb-aee3c806618d&noteKey=443ae331de64f2d9d3ce30d132a9755f&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs201%2Fsh%2F7c1b2ce5-2c65-4475-adeb-aee3c806618d%2F443ae331de64f2d9d3ce30d132a9755f&title=Sistema%2Bde%2Bnombres%2Bde%2Bdominio%2B-%2BWikipedia%252C%2Bla%2Benciclopedia%2Blibre&authuser=0)
-* 
