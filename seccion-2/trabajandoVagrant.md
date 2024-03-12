@@ -16,7 +16,7 @@ El Vagrantfile es el fichero que nos sirve para definiar la máquina virtual que
 ![Imagen del repositorio público de sistemas operativos](/imagenes/vagrantbox.jpg)
 
 Una vez escogemos un sistema operativo, copiamos su id
-![Id del contenedor ](/imagenes/ubuntufocal.jpg)
+![Id del contenedor ](./imagenes/ubuntufocal.jpg)
 
 A continuación abrimos Visual Studio code en el directorio donde queremos crear la máquina virtual y allí en la terminal, escribimos:
 ```bash
