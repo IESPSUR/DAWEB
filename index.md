@@ -6,12 +6,9 @@ nav_order: 1
 
 
 # Bienvenidos a Despliegue de Aplicaciones Web
-{: .fs-9 }
-Aquí encontrarás la documentación necesaria para el curso de Despliegue de Aplicaciones Web.
-{: .fs-6 .fw-300 }
-## Introducción al despliegue de aplicaciones web
+## Aquí encontrarás la documentación necesaria para el curso de Despliegue de Aplicaciones Web.
 
-**El contenido de esta sección es el que se proporciona durante el curso de 2º año de DAW, en el que se tratan temas como SSH, servidores web y DNS**
+El contenido de esta sección es el que se proporciona durante el curso de 2º año de DAW, en el que se tratan temas como SSH, servidores web y DNS
 
 ## Aspectos generales en la arquitectura web
 
