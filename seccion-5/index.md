@@ -31,7 +31,7 @@ DNS utiliza la caché para mejorar el rendimiento y la eficiencia. Cuando se rea
 
 En resumen, el Sistema de Nombres de Dominio (DNS) ofrece una variedad de servicios esenciales que son fundamentales para el funcionamiento de Internet. Desde la resolución de nombres hasta el registro de dominios y la distribución de carga, el DNS juega un papel crucial en la accesibilidad, la seguridad y la eficiencia de la red global.
 
-[Esquema de la conexión entre cliente y servidor](imagenes/DNS.png)
+![Esquema de la conexión entre cliente y servidor](imagenes/DNS.png)
 
 
 
