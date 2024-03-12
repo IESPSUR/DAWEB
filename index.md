@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Introducción al despliegue de aplicaciones web
+title: Introducción a Despliegue De Aplicaciones Web
 nav_order: 1
 ---
 
