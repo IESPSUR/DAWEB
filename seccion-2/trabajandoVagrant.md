@@ -13,7 +13,7 @@ apt install vagrant
 
 # Creación del VagrantFile
 El Vagrantfile es el fichero que nos sirve para definiar la máquina virtual que vamos a crear. Para crear este fichero necesitamos un sistema operativo, esto lo podemos obtener de [Repositorio de vagrant](https://app.vagrantup.com/boxes/search)
-![Imagen del repositorio público de sistemas operativos](/imagenes/vagrantbox.png)
+![Imagen del repositorio público de sistemas operativos](./imagenes/vagrantbox.png)
 
 Una vez escogemos un sistema operativo, copiamos su id
 ![Id del contenedor ](./imagenes/ubuntufocal.png)
