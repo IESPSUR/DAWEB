@@ -31,8 +31,8 @@ Discusión sobre diferentes estrategias de despliegue y sus ventajas.
 ## Sección 5: Servicio de nombres de dominio
 
 
-* [Sesión 1: SSH](sesion1)
-* [Sesión 2: Herramientas de despliegue de aplicaciones web](sesion2)
-* [Sesión 3: Sección 3: Servidor Apache](sesion3)
-* [Sesión 4: Redes en docker](sesion4)
-* [Sesión 5: Subsección 4: Apache Tomcat](sesion5)
+* [Sesión 1: SSH](seccion-1)
+* [Sesión 2: Herramientas de despliegue de aplicaciones web](seccion-2)
+* [Sesión 3: Sección 3: Servidor Apache](seccion-3)
+* [Sesión 4: Redes en docker](seccion-4)
+* [Sesión 5: Subsección 4: Apache Tomcat](seccion-5)
