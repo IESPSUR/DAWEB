@@ -2,7 +2,7 @@
 title: Configuración de Servidor HTTPS en Apache
 parent: 4-Administracion de servidores web
 layout: default
-nav_order: 5
+nav_order: 2
 ---
 
 ## Configuración de Servidor HTTPS en Apache 2.2 sobre Linux

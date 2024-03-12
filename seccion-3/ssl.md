@@ -2,7 +2,7 @@
 title: SSL Certificate
 parent: 4-Administracion de servidores web
 layout: default
-nav_order: 6
+nav_order: 3
 ---
 ## Configuración SSL
 

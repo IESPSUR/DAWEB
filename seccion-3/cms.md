@@ -2,7 +2,7 @@
 title: Sistema de gestión de contenidos
 parent: 4-Administracion de servidores web
 layout: default
-nav_order: 7
+nav_order: 4
 ---
 # ¿Qué es un CMS como Magento?
 
