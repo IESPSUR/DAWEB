@@ -1,8 +1,8 @@
 ---
-title: CMS 3
+title: Servidor Apache2
 parent: 4-Administracion de servidores web
 layout: default
-nav_order: 4
+nav_order: 5
 ---
 
 # Servidor Apache
@@ -30,8 +30,9 @@ Apache HTTP Server, comúnmente conocido como Apache, es un servidor web de cód
 
     Durante la instalación, se te pedirá confirmación para proceder. Presiona `Y` y luego `Enter` para continuar con la instalación.
 
-        ```
-    sudo service apache2 status
+
+    ```
+    sudo apt install apache2
     ```
 
 4. **Verificar la instalación**: Una vez completada la instalación, Apache 2 debería estar en funcionamiento. Puedes verificarlo ingresando la dirección IP de tu servidor en un navegador web. Si estás en el mismo equipo donde instalaste Apache, puedes usar `http://localhost` o `http://127.0.0.1`.

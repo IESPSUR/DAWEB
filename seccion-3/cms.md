@@ -1,5 +1,5 @@
 ---
-title: Servidor Apache 2
+title: Sistema de gestión de contenidos
 parent: 4-Administracion de servidores web
 layout: default
 nav_order: 4
