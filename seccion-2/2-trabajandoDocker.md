@@ -2,7 +2,7 @@
 title: 2.2 - Trabajando con docker
 layout: default
 nav_order: 2
-parent: 2-Herramientas de despliegue de aplicaciones web
+parent: 2 - Herramientas de despliegue de aplicaciones web
 ---
 # Creación de contenedores
 Para crear un contenedor docker existen dos opciones, la primera es crearlo desde cero y la segunda importando un contenedor desde [dockerhub](https://hub.docker.com/)

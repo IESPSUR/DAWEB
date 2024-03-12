@@ -2,7 +2,7 @@
 title: 1.1 - Guía rápida SSH
 layout: default
 nav_order: 1
-parent: 1-Servicio-SSH
+parent: 1 - Servicio-SSH
 
 ---
 # Guia rápida de como usar ssh

@@ -1,6 +1,6 @@
 ---
 title: 3.2 - Configuración de Servidor HTTPS en Apache
-parent: 3-Administracion de servidores web
+parent: 3 - Administracion de servidores web
 layout: default
 nav_order: 2
 ---

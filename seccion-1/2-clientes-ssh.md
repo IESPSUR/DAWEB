@@ -2,7 +2,7 @@
 title: 1.2 - Clientes SSH
 layout: default
 nav_order: 2
-parent: 1-Servicio-SSH
+parent: 1 - Servicio-SSH
 
 ---
 # ¿Qué es el cliente SSH?

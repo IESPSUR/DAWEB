@@ -1,6 +1,6 @@
 ---
 title: 3.3 - SSL Certificate
-parent: 3-Administracion de servidores web
+parent: 3 - Administracion de servidores web
 layout: default
 nav_order: 3
 ---
