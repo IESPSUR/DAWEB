@@ -8,11 +8,11 @@ parent: 5-Administracion de servidores de aplicaciones web
 
 # Tomcat
 
-# Pasos para Instalar y Configurar Apache Tomcat
+## Pasos para Instalar y Configurar Apache Tomcat
 
 * [Guia para instalar Tomcat en ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-10-on-ubuntu-20-04)
 
-# Paso 1 — Instalación de Tomcat
+## Paso 1 — Instalación de Tomcat
 
 En esta sección, configurarás Tomcat 10 en tu servidor. Para comenzar, descargarás su última versión y configurarás un usuario separado con los permisos apropiados. También instalarás el Kit de Desarrollo de Java (JDK).
 

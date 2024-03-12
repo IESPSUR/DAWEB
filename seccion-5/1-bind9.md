@@ -6,7 +6,6 @@ parent: 6-Servicios de nombres de dominio
 
 ---
 
-![Esquema de la conexión entre cliente y servidor](imagenes/DNS.png)
 
 # Introducción a BIND9
 
