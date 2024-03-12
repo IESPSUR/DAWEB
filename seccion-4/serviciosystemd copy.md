@@ -23,7 +23,7 @@ http://tu_direccion_ip_del_servidor:8080
 
 Verás la página de bienvenida predeterminada de Tomcat:
 
-[Pagina Inicil de Tomcat](imagenes/tomcat-2.png)
+![Pagina Inicial de Tomcat](imagenes/tomcat-2.png)
 
 
 
