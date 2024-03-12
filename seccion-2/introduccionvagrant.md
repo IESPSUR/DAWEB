@@ -1,5 +1,5 @@
 ---
-title: Herramientas de despliegue de aplicaciones web
+title: Introducción Vagrant
 layout: default
 nav_order: 6
 parent:  2-Herramientas de despliegue de aplicaciones web
