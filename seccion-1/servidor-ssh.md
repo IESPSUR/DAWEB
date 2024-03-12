@@ -18,7 +18,7 @@ El servidor SSH facilita el establecimiento de conexiones remotas que permiten l
 El funcionamiento del servidor SSH se configura a través de los distintos archivos de configuración, tales como:
 * sshd_config: Describe la configuración del servidor. Permite configurar opciones como el puerto de escucha, la versión del protocolo, dónde se encuentra la clave privada o si ha sido generada por RSA o DSA entre otras
 
-![Líneas del archivo sshd_config](./imagenes/sshd_config.jpg)
+![Líneas del archivo sshd_config](./imagenes/sshd_config.png)
 
 * ssh_config: Describe la configuración del cliente SSH
 
@@ -31,12 +31,12 @@ El funcionamiento del servidor SSH se configura a través de los distintos archi
 * ssh_host_dsa_key.pub: Clave DSA pública de la máquina
 
 # Autenticación
-Existen varios métodos de autenticación
+Existen varios métodos de autenticación, entre los cuales se encuentran los siguientes:
 
-# Autenticación por contraseña
+## Autenticación por contraseña
 Cada vez que el usuario quiera establecer una conexión con el servidor, se le requerirá la contraseña, el servidor la comprobará y si es correcta permitirá la conexión.  Éstp se basa en el archivo /etc/shadow
 
-# Autenticación por clave pública
+## Autenticación por clave pública
 Se copia una clave pública a todos los servidores que el cliente quiere conectarse. El cliente posse una clave privada cifrada.
 La información cifrada con clave pública sólo puede descifrarse con la correspondiente clave privada. Su funcionamiento es el siguiente:
 1. Se establece la conexión y el servidor genera un númeor aleatorio cifrado con clave pública mediante RSA o DSA y se envía al usuario.

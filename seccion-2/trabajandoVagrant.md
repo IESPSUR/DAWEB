@@ -13,10 +13,10 @@ apt install vagrant
 
 # Creación del VagrantFile
 El Vagrantfile es el fichero que nos sirve para definiar la máquina virtual que vamos a crear. Para crear este fichero necesitamos un sistema operativo, esto lo podemos obtener de [Repositorio de vagrant](https://app.vagrantup.com/boxes/search)
-![Imagen del repositorio público de sistemas operativos](/imagenes/vagrantbox.jpg)
+![Imagen del repositorio público de sistemas operativos](/imagenes/vagrantbox.png)
 
 Una vez escogemos un sistema operativo, copiamos su id
-![Id del contenedor ](./imagenes/ubuntufocal.jpg)
+![Id del contenedor ](./imagenes/ubuntufocal.png)
 
 A continuación abrimos Visual Studio code en el directorio donde queremos crear la máquina virtual y allí en la terminal, escribimos:
 ```bash
@@ -29,7 +29,7 @@ vagrant ssh
 ```
 Entonces el prompt del sistema debe cambiar al de la máquina virtual
 
-![Imagen del vagrantfile](./imagenes/vagrantfile.jpg)
+![Imagen del vagrantfile](./imagenes/vagrantfile.png)
 
 # Eliminar máquina virtual
 Para eliminar una máquina virtual de vagrant lo primero que debemos hacer es detenerla, para ello es necesario usar el comando:
