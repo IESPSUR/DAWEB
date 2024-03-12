@@ -1,6 +1,6 @@
 ---
 nav_order: 6
-title: 5-Servicios de nombres de dominio
+title: 5 - Servicios de nombres de dominio
 layout: default
 has_children: true
 ---

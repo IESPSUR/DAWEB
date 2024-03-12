@@ -1,5 +1,5 @@
 ---
-title: Enlaces de ampliación
+title: 1.4 - Enlaces de ampliación
 parent: 1-Servicio-SSH
 layout: default
 nav_order: 4

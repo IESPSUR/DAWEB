@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1-Servicio-SSH
+title: 1 - Servicio-SSH
 nav_order: 2
 has_children: true
 

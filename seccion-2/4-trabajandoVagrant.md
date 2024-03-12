@@ -1,8 +1,8 @@
 ---
-title: Trabajando con Vagrant
+title: 2.4 - Trabajando con Vagrant
 layout: default
 nav_order: 4
-parent: 2-Herramientas de despliegue de aplicaciones web
+parent: 2 - Herramientas de despliegue de aplicaciones web
 ---
 # Instalación de Vagrant
 El primer paso para trabajar con vagrant es instalarlo, para ello usamos 

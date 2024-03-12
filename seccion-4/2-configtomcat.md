@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-title: 4.2-Configuración de Credenciales de Tomcat
+title: 4.2 - Configuración de Credenciales de Tomcat
 layout: default
 parent: 4-Administracion de servidores de aplicaciones web
 ---

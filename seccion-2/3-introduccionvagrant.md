@@ -1,5 +1,5 @@
 ---
-title: Introducción Vagrant
+title: 2.3 - Introducción Vagrant
 layout: default
 nav_order: 3
 parent:  2-Herramientas de despliegue de aplicaciones web

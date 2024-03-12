@@ -1,6 +1,6 @@
 ---
 nav_order: 1
-title: 4.1-Instalacion Tomcat
+title: 4.1 - Instalacion Tomcat
 layout: default
 parent: 4-Administracion de servidores de aplicaciones web
 
