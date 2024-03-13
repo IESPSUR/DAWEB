@@ -56,7 +56,6 @@ Además, BIND 9 ofrece características de seguridad mejoradas, como la autentic
 ## Alumnos desarrolladores del proyecto 2º DAW
 
 - Caro Barrera, Alberto
-- Fabricio Zhune Mero, Elvis
 - García Gámez, Sergio
 - Gómez Rivera, Alejandro
 - Guerra Salas, Iván
@@ -65,3 +64,4 @@ Además, BIND 9 ofrece características de seguridad mejoradas, como la autentic
 - Rodríguez Garrido, Álvaro
 - Sánchez Ruano, Irene
 - Vázquez Franco, Luis
+- Zhune Mero, Elvis Fabricio
