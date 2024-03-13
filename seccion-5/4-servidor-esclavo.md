@@ -18,16 +18,52 @@ En resumen, debemos tocar tres archivos diferentes, dos en el maestro y una en e
 
 `/etc/bind/db.aula129.org`
 Añadiendo el nuevo servidor esclavo
-![Inserción del nuevo esclavo en el archivo de búsqueda directa del maestro](./imagenes/directoesclavo.png)
+```bash
+// Añadir línea en /etc/bind/db.aula129.org del maestro
+....
+IN NS dns.aula129.org.
+IN NS dns2.aula129.org. // Nueva línea
+.... 
+```
 
 `/etc/bind/192.rev`
-![Inserción del nuevo esclavo en el archivo de búsqueda inversa del maestro](./imagenes/inversoesclavo.png)
-
+```bash
+....
+IN NS dns.aula129.org.
+IN NS dns2.aula129.org. // Nueva línea
+....
+```
 ## En el esclavo modificaremos el archivo
 `/etc/bind/named.conf.local`
 Aquí en `type` indicamos que es esclavo y además añadimos a qué maestro debe hacer las peticiones
-![Configuración del archivo /etc/bind/named.conf.local del servidor esclavo](./imagenes/configuracionesclavo.png)
+```bash
+// Añadir en /etc/bind/named.conf.local del esclavo
+zone "aula129.org" {
+type slave;
+file "/etc/bind/db.aula129.org";
+masters { 192.168.1.200; };
+};
+
+zone "1.168.192.in-addr.arpa" {
+type slave;
+file "/etc/bind/192.rev";
+masters { 192.168.1.200; };
+}; 
+```
 
 De forma optativa, en el servidor maestro podemos añadir la línea `also-notify` para que se mantenga sincronizado de forma que cuando haya un cambio de zona, pase del maestro al esclavo
-![Configuración del archivo /etc/bind/named.conf.local del servidor maestro](./imagenes/alsonotify.png)
+```bash
+// Archivo /etc/bind/named.conf.local del maestro
+zone "aula129.org" {
+type master;
+file "/etc/bind/db.aula129.org";
+also-notify {ip_del_esclavo;}
+};
+
+zone "1.168.192.in-addr.arpa" {
+type master;
+file "/etc/bind/192.rev";
+also-notify {ip_del_esclavo;}
+};
+```
 
