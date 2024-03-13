@@ -26,4 +26,5 @@ La imagen se puede dividir en tres bloques, el primero son los parámetros relac
 El último paso es crear el archivo de búsqueda inversa, el cual se encargará de hacer consultas de IP a nombre, para esto creamos el archivo `192.rev` como mencionamos anteriormente.
 
 El archivo de búsqueda inversas tiene los mismos blosques que el archivo de búsqueda directa, cambiando sólo la forma en la que se declara la zona en el primer bloque y los equipos en el tercero. En este caso el último triplete de la dirección IP de cada equipo es el que los identifica dentro de la red.
+
 ![Código de ejemplo para la creación de un archivo de búsqueda inversa](./imagenes/192rev.png)

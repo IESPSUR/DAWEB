@@ -1,6 +1,6 @@
 ---
 nav_order: 4
-title: 5.3 - Bind9 servidor esclavo DNS
+title: 5.4 - Bind9 servidor esclavo DNS
 layout: default
 parent: 5 - Servicios de nombres de dominio
 
@@ -15,15 +15,15 @@ En resumen, debemos tocar tres archivos diferentes, dos en el maestro y una en e
 
 ## En el maestro modificaremos los archivos
 
-### `/etc/bind/db.aula129.org`
+`/etc/bind/db.aula129.org`
 Añadiendo el nuevo servidor esclavo
 ![Inserción del nuevo esclavo en el archivo de búsqueda directa del maestro](./imagenes/directoesclavo.png)
 
-### `/etc/bind/192.rev`
+`/etc/bind/192.rev`
 ![Inserción del nuevo esclavo en el archivo de búsqueda inversa del maestro](./imagenes/inversoesclavo.png)
 
 ## En el esclavo modificaremos el archivo
-### `/etc/bind/named.conf.local`
+`/etc/bind/named.conf.local`
 Aquí en `type` indicamos que es esclavo y además añadimos a qué maestro debe hacer las peticiones
 ![Configuración del archivo /etc/bind/named.conf.local del servidor esclavo](./imagenes/configuracionesclavo.png)
 
