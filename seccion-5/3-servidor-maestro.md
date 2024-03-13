@@ -7,7 +7,7 @@ parent: 5 - Servicios de nombres de dominio
 ---
 # Servidor DNS maestro 
 
-El servidor maestro DNS hace las funciones de resolución de direcciones, de forma que cuando un servidor caché le lanza una consulta, este la resuelve y le devuelve el nombre de dominio correspondiente a la dirección IP que recibió. 
+El servidor maestro DNS hace las funciones de resolución de direcciones, de forma que cuando un servidor caché le lanza una consulta, este la resuelve y le devuelve el nombre de dominio correspondiente a la dirección IP que recibió. Este servidor es el que almacena los registros de zona DNS para un dominio específico, además tiene la capacidad de modificar los registros de zona.
 
 ## 1. Configuración de un DNS maestro
 Para configurar un servidor DNS maestro debemos indicarlo en el archivo `/etc/bind/named.conf.local` añadiendo el tipo `master` como se indica en la imagen siguiente.

@@ -5,8 +5,9 @@ layout: default
 parent: 5 - Servicios de nombres de dominio
 
 ---
-# Servidor DNS maestro 
-Un servidor DNS esclavo es aquel que para resolver las consultas de direcciones debe hacer las peticiones a un servidor maestro ya que por sí mismo no contiene ningún registro. Su función principal es reducir la carga del servidor maestro.
+# Servidor DNS esclavo 
+
+Un servidor DNS esclavo es aquel que para resolver las consultas de direcciones debe hacer las peticiones a un servidor maestro ya que por sí mismo no contiene ningún registro. Su función principal es reducir la carga del servidor maestro, de forma que el esclavo es el que resuelve las consultas de los usuarios, evitando que el maestro haga esta tarea.
 
 ## 1. Configuración de un DNS esclavo
 Para configurar un DNS esclavo lo único que debemos hacer es indicar quién es el servidor maestro de su zona y en el archivo de configuración del maestro añadir al esclavo.
