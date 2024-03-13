@@ -11,7 +11,20 @@ El servidor maestro DNS hace las funciones de resolución de direcciones, de for
 
 ## 1. Configuración de un DNS maestro
 Para configurar un servidor DNS maestro debemos indicarlo en el archivo `/etc/bind/named.conf.local` añadiendo el tipo `master` como se indica en la imagen siguiente.
-![Código de ejemplo para la configuración de un DNS maestro](./imagenes/dnsmaestro.png)
+```bash
+// Añadir en /etc/bind/named.conf.local
+// Archivo para búsquedas directas
+zone "zona4.org" {
+type master;
+file "/etc/bind/db.zona4.org";
+};
+
+// Archivo para búsquedas inversas
+zone "129.168.192.in-addr.arpa" {
+type master;
+file "/etc/bind/192.rev";
+}; 
+```
 
 Además también debemos configurar el archivo para las búsquedas inversas
 
