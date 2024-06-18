@@ -45,23 +45,3 @@ BIND (Berkeley Internet Name Domain) es la implementación de DNS más utilizada
 BIND 9 proporciona una serie de características y funcionalidades avanzadas para la administración y el control de servidores DNS. Estas incluyen la capacidad de configurar zonas de dominio, gestionar registros de recursos (como A, CNAME, MX, etc.), configurar servidores de nombres autoritativos y recursivos, y realizar tareas de resolución de nombres.
 
 Además, BIND 9 ofrece características de seguridad mejoradas, como la autenticación de transacciones DNS (TSIG), la prevención de ataques de envenenamiento de caché (cache poisoning) y la validación de extensiones de seguridad DNS (DNSSEC). Estas características ayudan a garantizar la integridad y la seguridad del sistema DNS.
-
-
-# Curso 2023/2024
-
-## Profesor de la asignatura
-
-- Joaquin Manuel Montero Navarro
-
-## Alumnos desarrolladores del proyecto 2º DAW
-
-- Caro Barrera, Alberto
-- García Gámez, Sergio
-- Gómez Rivera, Alejandro
-- Guerra Salas, Iván
-- Guerrero Boza, Manuel Alejandro
-- Pinzon Ochoa, Gabriela Janneth
-- Rodríguez Garrido, Álvaro
-- Sánchez Ruano, Irene
-- Vázquez Franco, Luis
-- Zhune Mero, Elvis Fabricio
