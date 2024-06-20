@@ -1,4 +1,4 @@
-# Asignatura Despliegue de aplicaciones web
+# Módulo Despliegue de aplicaciones web
 
 [Enlace al curso de Despliegue de apliaciones web](https://iespsur.github.io/daweb/)
 

@@ -1,8 +1,8 @@
 title: Despliegue De Aplicaciones Web
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: 2º Desarrollo de Aplicaciones Web
 theme: just-the-docs
 
-url: https://iespsur.github.io/
+url: https://iespsur.github.io/daweb
 
 aux_links:
   Repositorio en GitHub: https://github.com/IESPSUR/daweb
